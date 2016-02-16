@@ -146,7 +146,7 @@ display.redmonder.all(n=5,type="div",exact.n=TRUE)
 devAskNewPage(ask=TRUE)
 ## display palettes that are colorblind friendly
 display.redmonder.all(colorblindFriendly=TRUE)
-devAskNewPage(ask=TRUE
+devAskNewPage(ask=TRUE)
 ## lists information for all palettes
 redmonder.pal.info
 ## produces information for palette sPBIRdPu only
@@ -163,7 +163,7 @@ but not with as many different leves as you asked for.
 }
 
 
-\author{Pedro Mac Dowell Innecco, De Montfort University,
+\author{Pedro Mac Dowell Innecco, \href{http://www.dmu.ac.uk}{De Montfort University},
 \email{dmu@pedroinnecco.com}. Redmonder is a fork of RColorBrewer by Erich Neuwirth, University of Vienna. See \href{https://cran.r-project.org/web/packages/RColorBrewer/}{RColorBrewer} documentation for more information.
 }
 \keyword{color}
