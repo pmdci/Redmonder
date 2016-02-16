@@ -1,0 +1,9 @@
+Package: Redmonder
+Type: Package
+Title: Microsoft-inspired Color Palettes for using with R
+Version: 0.1.0
+Author: Pedro Mac Dowell Innecco
+Maintainer: Pedro Mac Dowell Innecco <dmu@pedroinnecco.com>
+Description: Provide color schemes for maps (and other graphics) based on the color palettes of several Microsoft Products. Forked from RColorBrewer v1.1-2.
+License: Apache License 2.0
+LazyData: TRUE
