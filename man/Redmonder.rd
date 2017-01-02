@@ -8,7 +8,7 @@
 \alias{Redmonder}
 \alias{redmonder.all}
 \title{Redmonder palettes}
-\description{Creates nice-looking color palettes based on colour schemes inspired by Microsoft applications.\cr
+\description{Creates nice-looking color palettes based on colour schemes inspired by Microsoft(r) applications.\cr
 Redmonder is a fork of RColorBrewer. See \href{https://cran.r-project.org/package=RColorBrewer}{RColorBrewer} documentation for more information.\cr\cr
 The fundamental diference between RColorBrewer and Redmonder is the included color palettes. RColorBrewer is based on the design principles established by the \href{http://www.colorbrewer.org}{Color Brewer project}, while Redmonder does not. Redmonder is not designed as a replacement for RColorBrewer, but as an alternative for when the design principles of ColorBrewer are not required.
 }
@@ -38,7 +38,6 @@ available as R palettes.
 
 \code{redmonder.pal.info} returns information about the available palettes as a dataframe.
 \code{redmonder.pal.info} is not a function, it is a variable. This might change in the future.
-
 
 There are 3 types of palettes, sequential, diverging, and qualitative:
 \enumerate{
@@ -104,14 +103,19 @@ qMSOMrq
 qMSOSlp
 qMSOAsp
 qPBI
-
-
-
-
-
-
 }
 
+\value{A palette
+\cr
+You will get an error when you ask for a nonexisting palette,
+and you will get a warning if a palette you asked for exists
+but not with as many different leves as you asked for.
+}
+
+\author{Pedro Mac Dowell Innecco, \href{http://www.dmu.ac.uk}{De Montfort University},
+\email{dmu@pedroinnecco.com}. Redmonder is a fork of RColorBrewer by Erich Neuwirth, University of Vienna. See \href{https://cran.r-project.org/package=RColorBrewer}{RColorBrewer} documentation for more information, including additional contributors.
+}
+\keyword{color}
 
 \examples{
 ## create a sequential palette for usage and show colors
@@ -154,17 +158,3 @@ redmonder.pal.info["sPBIRdPu",]
 ## produces the maximum number of color values for palette sPBIRdPu only
 redmonder.pal.info["sPBIRdPu",]$maxcolors
 }
-
-\value{A palette
-\cr
-You will get an error when you ask for a nonexisting palette,
-and you will get a warning if a palette you asked for exists
-but not with as many different leves as you asked for.
-}
-
-
-\author{Pedro Mac Dowell Innecco, \href{http://www.dmu.ac.uk}{De Montfort University},
-\email{dmu@pedroinnecco.com}. Redmonder is a fork of RColorBrewer by Erich Neuwirth, University of Vienna. See \href{https://cran.r-project.org/web/packages/RColorBrewer/}{RColorBrewer} documentation for more information.
-}
-\keyword{color}
-
