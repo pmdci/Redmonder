@@ -26,11 +26,12 @@
    catlist<-rep(c("div","qual","seq"),c(length(divlist),length(quallist),length(seqlist)))
    colorblind <- (namelist %in% colorblindlist)
 
+   #' @export
    redmonder.pal.info<-data.frame(maxcolors=maxcolors,category=catlist,row.names=namelist,
 								colorblind=colorblind)
 
 
-
+#' @export
 redmonder.pal<-function(n,name){
    if(!(name %in% namelist)){
    stop(paste(name,"is not a valid palette name for redmonder.pal\n"))
@@ -168,7 +169,7 @@ redmonder.pal<-function(n,name){
             c(229,116,228,198,215,151),maxColorValue=255),
         rgb(c(223, 51, 28, 38, 39, 66, 62),
             c(227, 91,173,131,206,186,136),
-            c(229,116,228,198,215,151, 83),maxColorValue=255),		
+            c(229,116,228,198,215,151, 83),maxColorValue=255),
         rgb(c(223, 51, 28, 38, 39, 66, 62, 98),
             c(227, 91,173,131,206,186,136,163),
             c(229,116,228,198,215,151, 83,159),maxColorValue=255)
@@ -756,11 +757,11 @@ redmonder.pal<-function(n,name){
             c(246,226,206,186,166,145,125),maxColorValue=255),
 	    rgb(c(233,204,175,146,117, 87, 58, 29),
             c(248,229,209,190,170,151,131,112),
-            c(246,226,206,186,166,145,125,105),maxColorValue=255),		
+            c(246,226,206,186,166,145,125,105),maxColorValue=255),
 	    rgb(c(233,204,175,146,117, 87, 58, 29,  0),
             c(248,229,209,190,170,151,131,112, 92),
             c(246,226,206,186,166,145,125,105, 85),maxColorValue=255)
-        ),	
+        ),
 	sPBIGy1 = switch(n-2,
         rgb(c(237,211,185),
             c(238,213,187),
@@ -971,6 +972,7 @@ redmonder.pal<-function(n,name){
 	)
 }
 
+#' @export
 display.redmonder.pal<-function(n,name){
    if(!(name %in% namelist)){
    stop(paste(name,"is not a valid palette name for redmonder.pal\n"))
@@ -994,6 +996,7 @@ display.redmonder.pal<-function(n,name){
 
 }
 
+#' @export
 display.redmonder.all <-
     function (n=NULL, type="all", select=NULL, exact.n=TRUE, colorblindFriendly=FALSE) {
 	gaplist <- ""
