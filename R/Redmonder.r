@@ -17,7 +17,7 @@
    names(divnum)  <- divlist
    qualnum <- c(10, 8, 8, 8, 8, 8, 8, 8,
                  8, 8, 8, 8, 8, 8, 8, 8,
-				 8, 8, 8, 8, 8, 8, 8, 8)
+                 8, 8, 8, 8, 8, 8, 8, 8)
    names(qualnum) <- quallist
    seqnum <- rep(9, length(seqlist))
    names(seqnum) <- seqlist
@@ -972,6 +972,7 @@ redmonder.pal<-function(n,name){
 	)
 }
 
+#' @importFrom grDevices rgb
 #' @export
 display.redmonder.pal<-function(n,name){
    if(!(name %in% namelist)){
@@ -996,6 +997,7 @@ display.redmonder.pal<-function(n,name){
 
 }
 
+#' @importFrom graphics image par plot rect text
 #' @export
 display.redmonder.all <-
     function (n=NULL, type="all", select=NULL, exact.n=TRUE, colorblindFriendly=FALSE) {
