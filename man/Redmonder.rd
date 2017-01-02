@@ -9,7 +9,7 @@
 \alias{redmonder.all}
 \title{Redmonder palettes}
 \description{Creates nice-looking color palettes based on colour schemes inspired by Microsoft applications.\cr
-Redmonder is a fork of RColorBrewer. See \href{https://cran.r-project.org/web/packages/RColorBrewer/}{RColorBrewer} documentation for more information.\cr\cr
+Redmonder is a fork of RColorBrewer. See \href{https://cran.r-project.org/package=RColorBrewer}{RColorBrewer} documentation for more information.\cr\cr
 The fundamental diference between RColorBrewer and Redmonder is the included color palettes. RColorBrewer is based on the design principles established by the \href{http://www.colorbrewer.org}{Color Brewer project}, while Redmonder does not. Redmonder is not designed as a replacement for RColorBrewer, but as an alternative for when the design principles of ColorBrewer are not required.
 }
 \usage{redmonder.pal(n, name)

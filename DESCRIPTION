@@ -7,7 +7,10 @@ Authors@R: c(person(given = "Pedro", family = "Mac Dowell Innecco", role = c("au
         "cre"), email = "dmu@pedroinnecco.com"))
 Author: Pedro Mac Dowell Innecco [aut, cre]
 Maintainer: Pedro Mac Dowell Innecco <dmu@pedroinnecco.com>
-Depends: R (>= 2.0.0)
-Description: Provide color schemes for maps (and other graphics) based on the color palettes of several Microsoft Products. Forked from RColorBrewer v1.1-2.
+Depends:
+    R (>= 2.0.0)
+Description: Provide color schemes for maps (and other graphics) based on the
+    color palettes of several Microsoft Products. Forked from RColorBrewer v1.1-2.
 License: Apache License 2.0
 NeedsCompilation: no
+RoxygenNote: 5.0.1
