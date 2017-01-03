@@ -112,8 +112,12 @@ and you will get a warning if a palette you asked for exists
 but not with as many different leves as you asked for.
 }
 
+\note{Microsoft(r) is a registered trademark of Microsoft Corporation in the United States of America and/or other countries. Visit
+\url{http://go.microsoft.com/?linkid=4412893} for further information.It is not the intention of the author(s) to portray this work as a Microsoft(r) product in any way.
+}
+
 \author{Pedro Mac Dowell Innecco, \href{http://www.dmu.ac.uk}{De Montfort University},
-\email{dmu@pedroinnecco.com}. Redmonder is a fork of RColorBrewer by Erich Neuwirth, University of Vienna. See \href{https://cran.r-project.org/package=RColorBrewer}{RColorBrewer} documentation for more information, including additional contributors.
+\email{dmu@pedroinnecco.com}. Redmonder is a fork of RColorBrewer by Erich Neuwirth, University of Vienna with with contributions by John Maindonald, Australian National University. See \href{https://cran.r-project.org/package=RColorBrewer}{RColorBrewer} documentation for more information, including additional contributors.
 }
 \keyword{color}
 
