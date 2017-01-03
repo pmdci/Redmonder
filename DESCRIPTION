@@ -5,7 +5,6 @@ Title: Microsoft(r)-Inspired Color Palettes
 Version: 0.2.0
 Authors@R: c(person(given = "Pedro", family = "Mac Dowell Innecco", role = c("aut","cre"), email = "dmu@pedroinnecco.com"),
              person(given = "Erich", family = "Neuwirth", role = c("aut"), email = "erich.neuwirth@univie.ac.at"))
-Author: Pedro Mac Dowell Innecco [aut, cre]
 Maintainer: Pedro Mac Dowell Innecco <dmu@pedroinnecco.com>
 Depends:
     R (>= 2.0.0)
